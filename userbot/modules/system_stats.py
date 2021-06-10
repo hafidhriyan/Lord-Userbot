@@ -227,7 +227,7 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`I'M ALIVE!`")
+    await alive.edit("`AKU KEMBALI KAWAN`")
     await alive.edit("⚡")
     output = (
         f" **┗┓LORD USERBOT┏┛** \n"
@@ -237,12 +237,7 @@ async def amireallyalive(alive):
         f" ➥ `{DEFAULTUSER}` \n"
         f"**♛ ᴜsᴇʀɴᴀᴍᴇ** \n"
         f" ➥ `@{user.username}` \n"
-        f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon :`Ver {version.__version__} \n"
-        f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} Modules \n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
+
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
